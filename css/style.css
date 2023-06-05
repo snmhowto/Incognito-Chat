@@ -1,0 +1,76 @@
+nav h1{
+   text-align: center;
+   margin-top: 12px;
+   font-size: 30px;
+   color: #00c70b;
+}
+nav p{
+    text-align: center;
+    
+    color: #ff00e7;
+}
+body{
+    background: rgb(7,0,119);
+background: linear-gradient(90deg, rgba(7,0,119,1) 0%, rgba(1,0,6,0.9697128851540616) 51%, rgba(0,59,103,1) 100%);
+}
+.container{
+    max-width: 955px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    color: lime;
+}
+.message{
+    background-color: #00000063;
+    width: 35%;
+    padding: 10px;
+    margin: 17px 12px;
+    border-radius: 10px;
+    border: 1px solid green;
+
+}
+.left{
+    float: left;
+    clear: both;
+    
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+#send-container{
+    display: flex;
+    /* display: block; */
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 91%;
+    border-radius: 6px;
+    height: 40px;
+    background-color: #00000087;
+    border: 1px solid white;
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#messageInp:hover{
+    border: 1px solid white;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 6px;
+    height: 44px;
+    font-size: 25px;
+    width: 118px;
+    background: #000000;
+    color: #00da03;
+}
